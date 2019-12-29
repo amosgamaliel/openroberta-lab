@@ -226,3 +226,7 @@ define([ 'require', 'exports', 'log', 'util', 'comm', 'message', 'guiState.contr
     }
     exports.configureTagsInput = configureTagsInput;
 });
+$("#consoleButton").click(function(){
+    console.log('Hello there');
+    alert("You clicked the button");
+});
